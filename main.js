@@ -17,9 +17,8 @@ function myFunction() {
 }
 else{
 alert('HA HA HA, "Sorry Bro...Better Luck Next Time" Try Again');
-document.getElementById("demo").innerHTML =  value + " ತಪ್ಪು ಉತ್ತರ , Better Luck Next Time. Try Again";
 setTimeout(function(){
   window.location.reload();
-}, 2000);
+}, 1000);
 }
 }
