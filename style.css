@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shantell+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Shantell+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Shantell+Sans:wght@600&family=Srisakdi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+
+body {
+	background: linear-gradient(-45deg, #23d5ab,#23a6d5, #e73c7e,#ee7752);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* CSS */
+.button-24 {
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  font-family: 'Shantell Sans', cursive;
+  background: rgb(255, 71, 66);
+  border: 1px solid #FF4742;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 20px 30px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+.button-24:active {
+  opacity: .5;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: center;
+  padding: 3rem;
+  margin-top: 3rem;
+  border: 1px solid rgb(173, 184, 22);
+  border-radius: 20px;
+  margin-bottom:3rem ;
+  background-color: rgb(0, 0, 0);
+}
+h1{
+  padding:2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Shantell Sans', cursive;
+  color: #FF4742;
+}
+.santaimg{
+  margin-bottom: 2rem;
+  max-width: 400px;
+  min-width: 100px ;
+  transition: transform .2s;
+  transform: scale(1.2);
+}
+
+.question-cont{
+  cursor: pointer;
+  padding: 2rem;
+  color: white;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(255, 254, 254, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.clickins{
+  color: rgb(175, 128, 128);
+  font-style: italic;
+  font-size: 0.8rem;
+}
+h3{
+  font-family: 'Srisakdi', sans-serif;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+p{
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+.foot{
+margin-left: 3rem;
+margin-right: 3rem;
+margin-bottom: 5rem;
+font-family: 'Poppins', sans-serif;
+color: #c7c7c7;
+font-size: 0.7rem;
+}
+.atom{
+  color: black;
+}
+.name{
+  font-size: 3rem;
+  line-height: 2rem;
+  color: #FF4742;
+  font-family: 'Butterfly Kids', cursive;
+}
+.clue{
+  font-size:0.7rem;
+}
+.spnclu{
+  color: #FF4742
+}
