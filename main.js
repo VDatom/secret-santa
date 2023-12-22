@@ -19,6 +19,6 @@ else{
 alert('HA HA HA, "Sorry Bro...Better Luck Next Time" Try Again');
 setTimeout(function(){
   window.location.reload();
-}, 1000);
+}, 500);
 }
 }
